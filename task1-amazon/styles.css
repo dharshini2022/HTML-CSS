@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.BaseDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#000000;
+    height: 70px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+nav img{
+    width: 15%;
+    height: 70px;
+}
+
+.Location{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:left;
+    gap: 10px;
+    width: 20%;
+}
+
+.Location img{
+    height: 50%;
+    width: 20%;
+}
+
+.LocationText{
+    display: flex;
+    flex-direction: column;
+}
+
+.locationTextCountry{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.Location p{
+    font-size: 14px;
+    color: white;
+}
+
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.searchBar input{
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.searchBar button{
+    background-color: #000000;
+    height: 36px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBar button img{
+    width: 40px;
+    height: 20px;
+}
+
+.logoImg{
+    width: 100px;
+    height: 60px;
+}
+
+nav > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+nav > button img{
+    width: 30px;
+    height: 30px;
+}
+.MainDiv{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 100%;
+    height: 80%;
+}
+
+.ProductCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 500px;
+    border: 3px solid black;
+    margin-bottom: 2%;
+}
+.ProductCard img{
+    width: 100%;
+    height: 55%;
+}
+
+.ProductCard p{
+    font-size: 14px;
+    text-align:justify;
+    margin: 10px 10px;
+}
+
+.ProductCard button{
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:16px;
+    padding : 12px 40px;
+}
+
+.ProductCard button:hover{
+    background-color: #07060677;
+    color: whitesmoke;
+    font-weight: bold;
+}
