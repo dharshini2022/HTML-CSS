@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Amazon</title>
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <div class="logoDiv">
+                <img src="https://companieslogo.com/img/orig/AMZN_BIG.D-8fb0be81.png?t=1740113564" alt="Logo"/>
+                <div class="locationDiv">
+                    <img src ="https://cdn-icons-png.flaticon.com/128/14453/14453595.png" alt="location symbol"/>
+                    <p>Deliver to <br> <span> Coimbatore </span></p>
+                </div>
+            </div>
+
+            <div class="searchBarDiv">
+                <select name="Shop" id="Shop">
+                    <option value = "all" selected> all </option>
+                    <optgroup label="Clothing">
+                        <option value = "Dress"> Dress </option>
+                        <option value = "Footwear"> Footwear </option>
+                        <option value =" Accessories"> Accessories </option>
+                    </optgroup>
+                    <optgroup label="Electronics">
+                        <option value="Mobile_Laptops"> Mobile & Laptops </option>
+                        <option value="Home Electronics"> Home Electronics </option>
+                        <option value = "Kitchen Electronics"> Kitchen Electronics </option>
+                    </optgroup>
+                    <option value="Home Decor"> Home Decor </option>
+                    <option value="Toys"> Toys </option>
+                    <option value="Books"> Books </option>
+                </select>
+                <input type = "text" id="searchBar" placeholder="search"/>
+                <button>
+                    <img src = "https://cdn-icons-png.flaticon.com/128/54/54481.png" alt="search bar icon"/>
+                </button>
+            </div>
+            
+            <div class="iconDiv">
+                <div class="languageDiv">
+                    <img src="https://cdn-icons-png.flaticon.com/128/14009/14009677.png" alt="Indian Flag"/>
+                    <select name="Language" id="Language">
+                        <option value = "EN" selected> English </option>
+                        <option value = "HN"> Hindi </option>
+                        <option value = "TA"> Tamil </option>
+                        <option value = "MA"> Malayalam </option>
+                        <option value = "TE"> Telugu </option>
+                        <option value = "KA"> Kanada </option>
+                    </select>
+                </div>
+                <div class="AccountDiv">
+                    <p>Hello, Dharshini</p>
+                    <select name="Account" id="Account">
+                        <option value = "Account & List" selected> Account & List </option>
+                        <optgroup label="Your Account">
+                            <option value = "Manage Account"> Manage Account </option>
+                            <option value = "Your Orders"> Your Orders </option>
+                            <option value = "Switch Account"> Switch Account </option>
+                            <option value = "Sign Out"> Sign Out </option>
+                        </optgroup>
+                        <optgroup label = "Your List">
+                            <option value = "Shopping List"> Shopping List </option>
+                            <option value = "Wish List"> Wish List</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <a href='/' class="returnBtn">
+                    <p>Returns <br> <span> & Orders </span></p>
+                </a>
+                <a href='/' class="cartBtn">
+                    <img src="https://cdn-icons-png.flaticon.com/128/428/428173.png" alt="cart"/>
+                    <span>cart</span>
+                </a>
+            </div>
+
+            <button class="hamburgerBtn">
+                <img src="https://cdn-icons-png.flaticon.com/128/8812/8812110.png" alt="hamburger icon"/>
+            </button>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <ul class="tablet-view">
+            <li>
+                <div class="languageDiv">
+                    <img src="https://cdn-icons-png.flaticon.com/128/14009/14009677.png" alt="Indian Flag"/>
+                    <select name="Language" id="Language">
+                        <option value = "EN" selected> English </option>
+                        <option value = "HN"> Hindi </option>
+                        <option value = "TA"> Tamil </option>
+                        <option value = "MA"> Malayalam </option>
+                        <option value = "TE"> Telugu </option>
+                        <option value = "KA"> Kanada </option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="AccountDiv">
+                    <p>Hello, Dharshini</p>
+                    <select name="Account" id="Account">
+                        <option value = "Account & List" selected> Account & List </option>
+                        <optgroup label="Your Account">
+                            <option value = "Manage Account"> Manage Account </option>
+                            <option value = "Your Orders"> Your Orders </option>
+                            <option value = "Switch Account"> Switch Account </option>
+                            <option value = "Sign Out"> Sign Out </option>
+                        </optgroup>
+                        <optgroup label = "Your List">
+                            <option value = "Shopping List"> Shopping List </option>
+                            <option value = "Wish List"> Wish List</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </li>
+            <li>
+                 <a href='/' class="returnBtn">
+                    <p>Returns <br> <span> & Orders </span></p>
+                </a>
+            </li>
+            <li>
+                <a href='/' class="cartBtn">
+                    <img src="https://cdn-icons-png.flaticon.com/128/428/428173.png" alt="cart"/>
+                    <span>cart</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img1"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img2"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img3"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img4"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img5"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img6"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img7"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+           <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img8"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img9"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="ProductCard">
+            <img src="https://m.media-amazon.com/images/I/61kBmC8NfGL._SX679_.jpg" alt="img10"/>
+            <h2>Product Name</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in eaque eveniet, natus sit architecto amet aut ipsa voluptatum fugiat atque maxime, nesciunt necessitatibus eos itaque, beatae quod doloremque nam!</p>
+            <button>Buy Now</button>
+        </div>
+    </main>
+
+    <footer>
+        <p> 2026 @ All rights reserved by Amazon </p>
+    </footer>
+    <script>
+        const hamburger = document.querySelector(".hamburgerBtn");
+        const sidebar = document.querySelector(".sidebar");
+        hamburger.addEventListener("click", () => {
+            sidebar.classList.toggle("active");
+        });
+    </script>
+    
+</body>
+</html>
