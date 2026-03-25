@@ -19,3 +19,11 @@
 * use of drop down menu and <ul>
 * use of <script> to facilitate the visibility of sidebar based on screen size and hamburger icon button
 * use of object-fit option to eradicate the streching of image issue
+
+**TASK3:**
+**DATE:** 25/03/2026
+**Assignment:** carousel designing and use of standard responsive screen sizes
+**Tech Stack Used:**
+* <ul> based carousel
+* learnt about different scroll bar properties
+* use of standard screen sizes with respect to apple products.

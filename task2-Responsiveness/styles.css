@@ -197,7 +197,7 @@ a{
 .sidebar{
     background-color: #131921;
     width:300px;
-    height: 100vh;
+    height: 300px;
     position: fixed;
     top:50px;
     right: 0;
@@ -216,8 +216,33 @@ main{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items:center;
-    margin-top: 20px;
     flex:1;
+}
+
+/* Carousel css */
+.carousel {
+  display: flex;
+  width: 100vw;
+  height: 600px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel li {
+  flex: 0 0 100%;
+  list-style: none;
+  scroll-snap-align: start;
+}
+
+.carousel img {
+  width: 99vw;
+  height: 600px;
+  object-fit:fill; 
 }
 
 .ProductCard{
@@ -278,7 +303,7 @@ footer{
 
 
 /*tablet view css*/
-@media (min-width:601px) and (max-width:1200px) {
+@media (min-width:431px) and (max-width:1024px) {
     .locationDiv{
         display: flex;
     }
@@ -293,7 +318,7 @@ footer{
 }
 
 /*lap view css*/
-@media (min-width:1201px) {
+@media (min-width:1025px) {
     .hamburgerBtn{
         display: none;
     }
