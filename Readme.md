@@ -27,3 +27,11 @@
 * <ul> based carousel
 * learnt about different scroll bar properties
 * use of standard screen sizes with respect to apple products.
+
+**TASK4:**
+**Date:** 26/03/2025
+**Assignment:** modal pop ups and tab designing
+**Tech Stack Used:**
+* modal pop up desigend using :target
+* Tab based cart and wishlist designed using :checked
+* separate header.html file created and added it to the other paged using iframe

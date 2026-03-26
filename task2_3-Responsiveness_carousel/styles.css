@@ -266,7 +266,7 @@ main{
     margin: 10px 10px;
 }
 
-.ProductCard button{
+.ProductCard a{
     padding: 10px 20px;
     background-color: #000000;
     color: white;
@@ -275,9 +275,10 @@ main{
     cursor: pointer;
     font-size:16px;
     padding : 12px 40px;
+    text-decoration: none;
 }
 
-.ProductCard button:hover{
+.ProductCard a:hover{
     background-color: #07060677;
     color: whitesmoke;
     font-weight: bold;
@@ -301,6 +302,94 @@ footer{
     padding-top: 3px;
 }
 
+/* Modal Popup styles */
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    top:0;
+    left:0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup{
+    position: relative;
+    top:50%;
+    left:50%;
+    position: fixed;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.popup p{
+    color: #000000;
+}
+
+.popup_header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: #dbd9d6;
+    width: 100%;
+    height: auto;
+    top:0%;
+    left: 0%;
+}
+
+.popup_header h2{
+    color: #000000;
+    font-size: 9px;
+    padding: 0%;
+}
+
+.closeBtn{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    cursor: pointer;
+    background-color:  rgb(197, 67, 67);
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000000;
+    text-decoration: none;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.actions a{
+    display: inline;
+    text-decoration: none;
+    background-color: rgb(26, 87, 26);
+    color: #fff;
+    padding: 2% 5%;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.actions>a+a{
+    background-color: rgb(142, 32, 32);
+}
 
 /*tablet view css*/
 @media (min-width:431px) and (max-width:1024px) {

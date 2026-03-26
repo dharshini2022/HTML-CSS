@@ -1,0 +1,95 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;  /*to wrap content + padding + margin within the total width*/
+}
+
+.iframe_header{
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    border: none;
+}
+
+/* Tab styling */
+.tabs input {
+  display: none;
+}
+
+.tab-labels {
+  margin-top: 80px;
+  display: flex;
+  cursor: pointer;
+}
+
+.tab-labels label {
+  padding: 10px 20px;
+  background: #ccc;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+
+
+#cart:checked ~ .tab-labels label[for="cart"],
+#wishlist:checked ~ .tab-labels label[for="wishlist"] {
+  background: #333;
+  color: white;
+}
+
+.content > div {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+
+#cart:checked ~ .content .cartContent,
+#wishlist:checked ~ .content .wishlistContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+}
+
+/* Table css*/
+.cartTable, .wishTable{
+    width:80%;
+    height:auto;
+    border-collapse: collapse;
+}
+
+.cartTable th{
+    background-color: grey;
+    color: white;
+    padding: 2%;
+    border: 1px solid #000;
+}
+
+.wishTable th{
+    background-color: rgb(204, 66, 89);
+    color: #fff;
+    padding: 2%;
+    border: 1px solid grey;
+
+}
+
+.cartTable td, .wishTable td{
+    padding: 2%;
+    border: 1px solid #000;
+}
+
+/* for tablet and laptop view */
+@media (min-width : 431px){
+    .cartTable, .wishTable{
+        width: 60%;
+    }
+}
+
