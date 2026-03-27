@@ -29,9 +29,16 @@
 * use of standard screen sizes with respect to apple products.
 
 **TASK4:**
-**Date:** 26/03/2025
+**Date:** 26/03/2026
 **Assignment:** modal pop ups and tab designing
 **Tech Stack Used:**
 * modal pop up desigend using :target
 * Tab based cart and wishlist designed using :checked
 * separate header.html file created and added it to the other paged using iframe
+
+**TASK5:**
+**Date:** 27/03/2026
+**Assignment:** Accordian using checked hack and target pseudo class
+**Tech Stack Used:**
+* designed FAQ accordian
+* learnt about transitions 

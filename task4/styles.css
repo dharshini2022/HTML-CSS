@@ -243,12 +243,11 @@ main{
 
 .carousel li {
   flex: 0 0 100%;
-  list-style: none;
   scroll-snap-align: start;
 }
 
 .carousel img {
-  width: 99vw;
+  width: 100vw;
   height: 600px;
   object-fit:fill; 
 }
@@ -319,16 +318,14 @@ footer{
     top:0;
     left:0;
     visibility: hidden;
-    opacity: 0;
 }
 
 .overlay:target{
     visibility: visible;
-    opacity: 1;
 }
 
 .popup{
-    position: relative;
+    
     top:50%;
     left:50%;
     position: fixed;
@@ -386,7 +383,6 @@ footer{
 }
 
 .actions a{
-    display: inline;
     text-decoration: none;
     background-color: rgb(26, 87, 26);
     color: #fff;
