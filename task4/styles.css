@@ -44,8 +44,12 @@ select{
     background-color: transparent;
     color: #ffffff;
     border:none;
-    text-align: center;
+    text-align: justify;
 
+}
+
+select optgroup{
+    color: #000000;
 }
 
 select:hover{
@@ -317,6 +321,9 @@ footer{
     background: rgba(0,0,0,0.5);
     top:0;
     left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     visibility: hidden;
 }
 
@@ -325,47 +332,39 @@ footer{
 }
 
 .popup{
-    
-    top:50%;
-    left:50%;
+    /* top:50%;
+    left:50%; */
     position: fixed;
     z-index: 1000;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
 
     background-color: #ffffff;
     display:flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
-    padding: 2%;
 
 }
 
 .popup p{
     color: #000000;
+    padding: 2%;
 }
 
 .popup_header{
-    position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #dbd9d6;
     width: 100%;
     height: auto;
-    top:0%;
-    left: 0%;
 }
 
 .popup_header h2{
     color: #000000;
-    font-size: 9px;
-    padding: 0%;
+    font-size: 9px;;
 }
 
 .closeBtn{
-    position: absolute;
-    top:0%;
-    right: 0%;
     cursor: pointer;
     background-color:  rgb(197, 67, 67);
     font-size: 20px;
@@ -380,6 +379,7 @@ footer{
     width: 100%;
     height: auto;
     justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 .actions a{
@@ -405,6 +405,12 @@ footer{
     }
     .logoDiv>img{
         width: 100px;
+    }
+
+    .popup{
+        top:20%;
+        left:45%;
+        transform: translate(-20%,-45%);
     }
     
 
