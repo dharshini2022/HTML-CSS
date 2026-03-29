@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Complex Responsive Layout with Grid and Flexbox</title>
+</head>
+<body>
+    <header>
+        <div class="logoDiv">
+            <h2>The</h2>
+            <div class="dot"></div>
+            <h2>Chronicle</h2>
+        </div>
+        <ul class="optionsList">
+            <li>WORLD</li>
+            <li>TECH</li>
+            <li>SCIENCE</li>
+            <li>CULTURE</li>
+            <li>OPINION</li>
+        </ul>
+        <div class="dateDiv">
+            Mon, 30 March 2026
+        </div>
+    </header>
+
+    <div class="gridContainer">
+        <section class="sidebar">
+            <p>ALSO TODAY</p>
+            <div class="sidebarCard">
+                <p>Economy</p>
+                <h4>Fed Signals Rate Pause Amid Mixed Inflation Data</h4>
+                <p>Marcus Hill · 4 min</p>
+            </div>
+            <div class="sidebarCard">
+                <p>Technology</p>
+                <h4>Open-Source AI Coalition Surpasses 2 Million Contributors</h4>
+                <p>Priya Nair · 6 min</p>
+            </div>
+            <div class="sidebarCard">
+                <p>Science</p>
+                <h4>Telescope Captures Clearest Image of a Neutron Star Merger</h4>
+                <p>Dr. L. Fernandes · 5 min</p>
+            </div>
+            <div class="sidebarCard">
+                <p>Culture</p>
+                <h4>Venice Biennale Opens With Record Attendance</h4>
+                <p>Sofia Rossi · 3 min</p>
+            </div>
+            <div class="sidebarCard">
+                <p>Health</p>
+                <h4>Longevity Study Links Mediterranean Diet to 12% Longer Lifespan</h4>
+                <p>Chen Wei · 7 min</p>
+            </div>
+            <div class="subscriptionCard">
+                <h3>Morning Briefing</h3>
+                <p>The five stories you need before 9 AM, delivered to your inbox.</p>
+                <input type="text" placeholder="your@email.com"/>
+                <button>SUBSCRIBE FREE </button>
+            </div>
+
+        </section>
+
+        <div class="card1">
+            <img src="https://imgs.search.brave.com/j6AHL6_04jKK1zFeHbuVboaUU1K4lReRg3SnA3yld0M/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/bmlzdC5nb3Yvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy9zdHlsZXMv/OTYwX3hfOTYwX2xp/bWl0L3B1YmxpYy9p/bWFnZXMvMjAyMC8x/MS8yNS8lQzIlQTlZ/dXJjaGFua2ElMjBT/aWFyaGVpX3NodXR0/ZXJzdG9ja18xMjEw/MTU4MTY5LmpwZz9p/dG9rPXRIV0RveU5z" alt="img1"/>
+            <div class="cardContent">
+                <h2>Quantum Computing Crosses the 10,000 Qubit Threshold — What It Means for Encryption</h2>
+                <p>Engineers at a leading research consortium announced a milestone that cryptographers have long feared and scientists have eagerly anticipated. The implications for everything from financial security to pharmaceutical discovery are profound and immediate.</p>
+                <div class="cardIcons">
+                    <div class="cardAuthor">
+                        <div class="cardAuthorSymbol">RK</div>
+                        <div class="cardAuthorMain">
+                            <p>Ryo Kimura</p>
+                            <p>Mar 27, 2026</p>
+                        </div>
+                    </div>
+                    <div class="starSymbol">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card2">
+            <img src="https://imgs.search.brave.com/ulQfx0qiGX9buSI1bwbTd_NdxL7HNJiV31RhOTtNVGY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMz/OTMyMTM2MS9waG90/by91bml0ZWQtc3Rh/dGVzLW9mLWFtZXJp/Y2EtbmlnaHQtbGln/aHRzLXZpZXctZnJv/bS1zcGFjZS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9OTV1/WDRFSm9ndU9hMmM5/bWNYRXR4LTVFdzJy/cjlTV2kyWUJlYjhk/WnoyUT0" alt="img1"/>
+            <div class="cardContent">
+                <h2>NASA Lunar Gateway Station</h2>
+                <p>The orbiting outpost is on schedule to receive its first crew by late 2027.</p>
+                <div class="cardIcons">
+                    <div class="cardAuthor">
+                        <div class="cardAuthorSymbol">JA</div>
+                        <div class="cardAuthorMain">
+                            <p>James Abutu</p>
+                            <p>Mar 27, 2026</p>
+                        </div>
+                    </div>
+                    <div class="starSymbol">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardsRow">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559526324-593bc073d938" alt="img1"/>
+                <div class="cardContent">
+                    <h2>Emerging Market Currencies Stage Surprise Rally</h2>
+                    <p>A confluence of dovish central bank signals and improving trade balances pushed currencies in Southeast Asia and Latin America to multi-year highs against the dollar.</p>
+                    <div class="cardIcons">
+                        <div class="cardAuthor">
+                            <div class="cardAuthorSymbol">NM</div>
+                            <div class="cardAuthorMain">
+                                <p>Nina Moreau</p>
+                                <p>Mar 27, 2026</p>
+                            </div>
+                        </div>
+                        <div class="starSymbol">
+                            <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://imgs.search.brave.com/P1nmHd6Qz35mXfs3wK5E-TJefWpIX1easrJC_8pXLQc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzE3LzY2LzkzLzg1/LzM2MF9GXzE3NjY5/Mzg1NzlfZWN5NFlH/T05PbjcyajN1dFd0/YU1qU1p1czJ3bVlN/VXouanBn" alt="img1"/>
+                <div class="cardContent">
+                    <h2>The Resurgence of Slow Journalism in a Fractured Media Landscape</h2>
+                    <p>Long-form investigative outlets are seeing record subscriptions as audiences grow weary of the relentless news cycle and seek considered, contextual reporting.</p>
+                    <div class="cardIcons">
+                        <div class="cardAuthor">
+                            <div class="cardAuthorSymbol">AB</div>
+                            <div class="cardAuthorMain">
+                                <p>Aaliya Bhatt</p>
+                                <p>Mar 26, 2026</p>
+                            </div>
+                        </div>
+                        <div class="starSymbol">
+                            <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://imgs.search.brave.com/SnI1AMlmN2QDaXYlG4GruW73u02gFwh91sCKP_99mkY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9qb3lj/ZW1leWVyLm9yZy8t/L21lZGlhL0pveWNl/TWV5ZXIvR3Jvdy1Z/b3VyLUZhaXRoL0Fy/dGljbGVzL1RoZS1B/cnQtb2YtTGVhcm5p/bmctSG93LXRvLUxv/dmUvVGhlQXJ0b2ZM/ZWFybmluZ0hvd3Rv/TG92ZS5qcGc_dz0x/MjQ4Jmg9YXV0byZo/YXNoPTdERDdFOUZC/OTkwQzBFMTNGMTUy/MzRBRURFQ0M0NTEy" alt="img1"/>
+                <div class="cardContent">
+                    <h2>New mRNA Therapy Shows 94% Efficacy Against Aggressive Cancer</h2>
+                    <p>In a phase-3 trial involving over 2,000 patients, personalised mRNA approach outperformed every existing standard of care by a substantial margin.</p>
+                    <div class="cardIcons">
+                        <div class="cardAuthor">
+                            <div class="cardAuthorSymbol">EV</div>
+                            <div class="cardAuthorMain">
+                                <p>Elena Vasquez</p>
+                                <p>Mar 26, 2026</p>
+                            </div>
+                        </div>
+                        <div class="starSymbol">
+                            <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="opinionDiv">
+            <div class="ruler"></div> 
+            <p>OPNION</p>
+            <div class="ruler"></div>   
+        </div>
+
+        <div class="cardBottom">
+            <h3>The age of techno-optimism is not dead — it has simply moved from Silicon Valley to Singapore.</h3>
+            <div class="cardIcons">
+                    <div class="cardAuthor">
+                        <div class="cardAuthorSymbol">TW</div>
+                        <div class="cardAuthorMain">
+                            <p>Thomas Wyatt</p>
+                            <p>Technology Editor</p>
+                        </div>
+                    </div>
+                    <div class="starSymbol">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                    </div>
+                </div>
+        </div>
+        <div class="cardBottom">
+            <h3>Democracy doesn't die in darkness. It suffocates quietly under the weight of voter apathy and algorithmic distraction.</h3>
+            <div class="cardIcons">
+                    <div class="cardAuthor">
+                        <div class="cardAuthorSymbol">SR</div>
+                        <div class="cardAuthorMain">
+                            <p>Suki Rahman</p>
+                            <p>Political Correspondent</p>
+                        </div>
+                    </div>
+                    <div class="starSymbol">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                    </div>
+                </div>
+        </div>
+        <div class="cardBottom">
+            <h3>We must design cities for the climate we are inheriting, not the climate we once enjoyed.</h3>
+            <div class="cardIcons">
+                    <div class="cardAuthor">
+                        <div class="cardAuthorSymbol">CL</div>
+                        <div class="cardAuthorMain">
+                            <p>Clara Lund</p>
+                            <p>Urban Affairs</p>
+                        </div>
+                    </div>
+                    <div class="starSymbol">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                    </div>
+                </div>
+        </div>
+        <div class="cardBottom">
+            <h3>The most radical thing a corporation can do in 2026 is tell the truth about its own supply chain.</h3>
+            <div class="cardIcons">
+                    <div class="cardAuthor">
+                        <div class="cardAuthorSymbol">OE</div>
+                        <div class="cardAuthorMain">
+                            <p>Obinna Eze</p>
+                            <p>Business Columnist</p>
+                        </div>
+                    </div>
+                    <div class="starSymbol">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                    </div>
+                </div>
+        </div>
+        <div class="cardBottom">
+            <h3>Open-source is not just a development philosophy — it is becoming the only credible model for public-interest AI.</h3>
+            <div class="cardIcons">
+                    <div class="cardAuthor">
+                        <div class="cardAuthorSymbol">MM</div>
+                        <div class="cardAuthorMain">
+                            <p>Mia Müller</p>
+                            <p>AI Ethics Writer</p>
+                        </div>
+                    </div>
+                    <div class="starSymbol">
+                        <img src="https://cdn-icons-png.flaticon.com/128/149/149220.png" alt="star"/>
+                    </div>
+                </div>
+        </div>
+    </div>     
+</body>
+</html>
