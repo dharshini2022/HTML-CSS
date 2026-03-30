@@ -51,3 +51,10 @@
 * learnt flex and practised in flexfroggy.com
 * learn grid and practised in gridgarden.com
 * followed the 12 column layout for responsiveness
+
+**DATE:** 30/03/2026
+**Assignment:** Solved the issues in responsiveness
+**Concepts used / learnt:**
+* solved responsiveness issues in media queires
+* learnt and practised accordian with <details> and <summary>
+* learnt about animations and keyframes

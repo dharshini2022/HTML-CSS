@@ -197,3 +197,28 @@ body{
   max-height: 300px; 
   padding: 12px 16px;
 }
+
+/* CSS for Accordian created using details and summary tag */
+.DSDiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+details{
+  width: 70%;
+  border:1px solid #d4d4d4;
+}
+
+details[open] summary{
+  background-color: #333;
+  color: #fff;
+  font-weight: 100;
+}
+
+summary{
+  background-color: #e6e6e6;
+  padding: 1% 0%;
+  font-size: 16px;
+  font-weight: bold;
+}
