@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    box-sizing: border-box;  /*to wrap content + padding + margin within the total width*/
+    box-sizing: border-box;  /*to wrap content + padding + border within the total width*/
 }
 
 .iframe_header{
